@@ -61,54 +61,56 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\IndicatorBehaviourController.cs" />
-    <None Include="Assets\VaseEgyptFree\Readme.txt" />
+    <Compile Include="Assets\Scripts\SelectionMenu.cs" />
+    <Compile Include="Assets\Scripts\VaseSelection.cs" />
+    <None Include="Assets\Assets\Readme.txt" />
     <Reference Include="Unity.XR.ARKit">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.FaceSubsystem">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.FaceSubsystem.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.FaceSubsystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.FaceTracking">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARExtensions">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARExtensions.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARExtensions.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARExtensions.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARExtensions.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -309,13 +311,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.9f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/UnityProjects/HomeDecorAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/UnityProjects/SData/HomeDecorAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.9f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
